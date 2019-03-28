@@ -1,13 +1,13 @@
 <template>
-    $END$
+    <home-screen></home-screen>
 </template>
 
 <script>
+    import HomeScreen from '../screens/HomeScreen/HomeScreen';
+
     export default {
-        name: "Main"
+        components: {
+            HomeScreen
+        }
     }
 </script>
-
-<style scoped>
-
-</style>

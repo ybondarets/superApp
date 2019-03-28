@@ -1,5 +1,7 @@
 <template>
-    $END$
+    <view class="view-container">
+        <slot></slot>
+    </view>
 </template>
 
 <script>
@@ -8,6 +10,11 @@
     }
 </script>
 
-<style scoped>
-
+<style>
+    .view-container {
+        padding-top: 30px;
+        padding-bottom: 25px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 </style>
